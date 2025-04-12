@@ -45,4 +45,19 @@ El objetivo del proyecto es crear una **presencia digital profesional** para el 
 ---
 
 ## 📁 Estructura del Proyecto
-📦 talleresgr/ ├── 📄 index.html ├── 📁 assets/ │ ├── 📁 images/ │ ├── 📁 scripts/ │ │ ├── 📄 active-link.js │ │ ├── 📄 blur.js │ │ ├── 📄 form.js │ │ ├── 📄 loadmore.js │ │ ├── 📄 navbar.js │ │ ├── 📄 scrollreveal.js │ │ ├── 📄 scrollup.js │ ├── 📁 templates/ │ │ └── 📄 scrollreveal.min.js │ └── 📄 style.css └── 📄
+**📦 talleresgr/**  
+├── 📄 `index.html`  
+├── 📁 `assets/`  
+│   ├── 📁 `images/`  
+│   ├── 📁 `scripts/`  
+│   │   ├── 📄 `active-link.js`  
+│   │   ├── 📄 `blur.js`  
+│   │   ├── 📄 `form.js`  
+│   │   ├── 📄 `loadmore.js`  
+│   │   ├── 📄 `navbar.js`  
+│   │   ├── 📄 `scrollreveal.js`  
+│   │   ├── 📄 `scrollup.js`  
+│   ├── 📁 `templates/`  
+│   │   └── 📄 `scrollreveal.min.js`  
+│   └── 📄 `style.css`  
+└── 📄 `README.md`
