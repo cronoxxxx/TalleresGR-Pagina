@@ -23,10 +23,9 @@ Bienvenido al repositorio de **TalleresGR**, una página web moderna y atractiva
 
 - Diseño **responsive**, compatible con móviles, tablets y escritorio.
 - Secciones informativas:
-  - ✅ Quiénes somos
-  - 🔧 Servicios (mecánica, mantenimiento, diagnóstico)
-  - 🖼️ Galería de trabajos
-  - 💬 Testimonios de clientes
+  - 📄 Inicio (pantalla principal a mostrar al usuario como introducción)
+  - ✅ Nosotros (quiénes somos)
+  - 🔧 Servicios (mecánica, mantenimiento, diagnóstico, etc.)
   - 📬 Formulario de contacto
 - Transiciones visuales atractivas en cada sección gracias a **ScrollReveal**.
 
