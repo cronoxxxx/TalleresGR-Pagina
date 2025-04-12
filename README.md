@@ -1,6 +1,10 @@
 # 🛠️ TalleresGR - Página Web de Taller Mecánico
 
 ![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green.svg)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![ScrollReveal](https://img.shields.io/badge/ScrollReveal-4.0%2B-blueviolet)
 
 Bienvenido al repositorio de **TalleresGR**, una página web moderna y atractiva diseñada para representar un **taller mecánico profesional**, desarrollada con **HTML, CSS y JavaScript**, e impulsada por animaciones suaves usando **ScrollReveal.js**.
 
