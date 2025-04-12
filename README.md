@@ -34,7 +34,6 @@ Bienvenido al repositorio de **TalleresGR**, una página web moderna y atractiva
 
 ## 🎨 Vista previa
 
-(¡Puedes agregar aquí una imagen o GIF del sitio funcionando!)
 
 ---
 
@@ -59,5 +58,5 @@ El objetivo del proyecto es crear una **presencia digital profesional** para el 
 │   │   ├── 📄 `scrollup.js`  
 │   ├── 📁 `templates/`  
 │   │   └── 📄 `scrollreveal.min.js`  
-│   └── 📄 `style.css`  
+│   └── 📄 `stylesheet.css`  
 └── 📄 `README.md`
