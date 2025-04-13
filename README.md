@@ -64,4 +64,3 @@ El objetivo del proyecto es crear una **presencia digital profesional** para el 
 │   ├── 📁 `templates/`  
 │   │   └── 📄 `scrollreveal.min.js`  
 │   └── 📄 `stylesheet.css`  
-└── 📄 `README.md`
