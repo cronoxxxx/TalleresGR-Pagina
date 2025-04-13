@@ -853,6 +853,15 @@ transition: transform .4s;
 
 
 @media screen and (max-width: 767px) {
+    .mobile-spacer {
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    
+    
+
+
   /* WhatsApp button size adjustment */
   .scrollwhatsapp {
     position: fixed;

@@ -13,7 +13,7 @@ const clearValidationError = (fieldId) => {
 const validateName = () => {
     
     let name = document.getElementById("nombre");
-    if (name.value.length < 1 || name.value.length > 11) {
+    if (name.value.length < 1 || name.value.length > 30) {
         showValidationError("nombre", "El nombre debe estar entre 1 y 30 caracteres")
         return 1
     } else {
@@ -24,15 +24,15 @@ const validateName = () => {
 }
 
 const validateSurname = () => {
-    let surname = document.getElementById("apellido");
-    if (surname.value.length < 1 || surname.value.length > 11) {
-        showValidationError("apellido", "El telefono debe estar entre 1 y 11 caracteres")
+    let surname = document.getElementById("telefono");
+    if (surname.value.length < 1 || surname.value.length > 30) {
+        showValidationError("telefono", "El telefono debe estar entre 1 y 11 caracteres")
         return 1
     } else if (!/^\d+$/.test(surname.value)) {
-        showValidationError("apellido", "Solo se aceptan valores numÃ©ricos en esta categorÃ­a")
+        showValidationError("telefono", "Solo se aceptan valores numéricos en esta categoría")
         return 1
     } else{
-        clearValidationError("apellido")
+        clearValidationError("telefono")
         return 0
     }
     

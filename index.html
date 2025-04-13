@@ -232,7 +232,7 @@
 
             </div>
             
-           
+            
             
         </section>
 
@@ -242,6 +242,8 @@
 
         <!--CONTACTO-->
         <section class="contacto section" id="contacto">
+            
+
             <div class="contacto__container">
                 <div class="contacto__image">
 
@@ -269,16 +271,16 @@
                 <section class="join section">
                     <div class="join__container container grid">
                         <div class="join__data">
-                            <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post" class="join__form" id="join-form">
+                            <form method="post" class="join__form" id="join-form">
                                 <label for="nombre" class="join__label">*Nombre*:
                                     <span id="nombreError" class="error"></span>
                                 </label>
                                 <input type="text" class="join__input" id="nombre" name="nombre" placeholder="Ingrese su nombre">
                 
-                                <label for="apellido" class="join__label">*Teléfono*:
-                                    <span id="apellidoError" class="error"></span>
+                                <label for="telefono" class="join__label">*Teléfono*:
+                                    <span id="telefonoError" class="error"></span>
                                 </label>
-                                <input type="text" class="join__input" id="apellido" name="apellido" placeholder="Ingrese su teléfono">
+                                <input type="text" class="join__input" id="telefono" name="telefono" placeholder="Ingrese su teléfono">
                 
                                 <label for="email" class="join__label">*Correo electrónico*:
                                     <span id="emailError" class="error"></span>
@@ -338,6 +340,7 @@
     <script src="assets/templates/scrollreveal.min.js"></script>
     <script src="assets/scripts/scrollreveal.js"></script>
     <script src="assets/scripts/loadmore.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </body>
 
 </html>
