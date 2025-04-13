@@ -64,3 +64,19 @@ El objetivo del proyecto es crear una **presencia digital profesional** para el 
 │   ├── 📁 `templates/`  
 │   │   └── 📄 `scrollreveal.min.js`  
 │   └── 📄 `stylesheet.css`  
+
+---
+
+## 📌 Créditos y Licencia
+
+Proyecto desarrollado por **Walther Saavedra** como parte de lo requerido por el dueño de la página.
+
+### © Derechos de Autor  
+Todo el contenido de este proyecto (código, imágenes y estilos) está protegido por derechos de autor.  
+© 2025 TalleresGR. Todos los derechos reservados.
+
+### 📝 Licencia  
+Este proyecto se distribuye bajo la **Licencia MIT**.  
+Esto significa que puedes usar, modificar y distribuir el código con libertad, siempre y cuando mantengas los avisos de copyright originales.
+
+Para más detalles, consulta el archivo [`LICENSE`](LICENSE).
