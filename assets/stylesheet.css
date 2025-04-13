@@ -4,7 +4,7 @@
     /*Variables que se crean para su uso en los elementos*/
     --header-height : 3.5 rem;
     --title-color: hsl(0,0%,95%);
-    --text-color:  hsl(0,0%,70%);
+     --text-color:  hsl(0,0%,70%);
     --text-color-light:  hsl(0,0%,60%);
     --body-color: hsl(0, 0%, 0%);
     --container-color: hsl(0, 0%, 8%);
@@ -706,7 +706,7 @@ footer{
 
 
 .cronox__text{
-    color: var(--text-color-light);
+    color: rgb(129, 220, 250);
     transition: color .4s;
 }
 
