@@ -76,7 +76,7 @@ Todo el contenido de este proyecto (código, imágenes y estilos) está protegid
 © 2025 TalleresGR. Todos los derechos reservados.
 
 ### 📝 Licencia  
-Este proyecto se distribuye bajo la **Licencia MIT**.  
+Este proyecto se distribuye bajo la **Licencia Apache**.  
 Esto significa que puedes usar, modificar y distribuir el código con libertad, siempre y cuando mantengas los avisos de copyright originales.
 
 Para más detalles, consulta el archivo [`LICENSE`](LICENSE).
