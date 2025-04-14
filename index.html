@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +15,17 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "YG9MQrXUuvNE5aq5z",
+            });
+        })();
+    </script>
 
+</head>
 
 <body>
     <!--HEADER - NAV BAR-->
@@ -24,7 +33,7 @@
         <nav class="nav container">
 
             <a href="#" class="nav__logo">
-            
+
                 <img src="assets/images/p6.png" alt="logo" width="150px" height="50px">
             </a>
             <div class="nav__menu" id="nav__menu">
@@ -56,7 +65,7 @@
                     </h1>
                     <h1 class="inicio__title">Talleres GR</h1>
                     <p class="inicio__description">Calidad y Experiencia a tu servicio
-                       </p>
+                    </p>
                     <a href="#contacto" class="button">Contáctanos <i class="ri-arrow-right-line"></i></a>
                 </div>
                 <div class="inicio__cards grid">
@@ -98,7 +107,9 @@
             <div class="nosotros__container container grid">
                 <div class="nosotros__data">
                     <h2 class="section__title">Nosotros</h2>
-                    <p class="nosotros__description">Somos un taller de Mecánica, Chapa y Pintura, con mas de 10 años de experiencia, trabajamos con insumos de calidad para obtener los mejores acabados y satisfacción de nuestros clientes.</p>
+                    <p class="nosotros__description">Somos un taller de Mecánica, Chapa y Pintura, con mas de 10 años de
+                        experiencia, trabajamos con insumos de calidad para obtener los mejores acabados y satisfacción
+                        de nuestros clientes.</p>
                     <a href="#contacto" class="button">Contactanos<i class="ri-arrow-right-line"></i></a>
                 </div>
                 <div class="nosotros__image">
@@ -148,9 +159,9 @@
                         <span class="servicio__text">Cambio de batería</span>
                     </div>
 
-                    
+
                 </article>
-                
+
                 <article class="servicio__card hidden ">
                     <div class="servicio__image">
                         <img src="assets/images/servicios1.jpg" alt="mecanico" class="servicio__img">
@@ -163,20 +174,20 @@
                         <span class="servicio__text">Mecánica </span>
                     </div>
                 </article>
-                
+
                 <article class="servicio__card hidden">
                     <div class="servicio__image">
                         <img src="assets/images/servicios4.jpg" alt="mecanico" class="servicio__img">
                         <div class="servicio__shadow"></div>
                     </div>
-                    
+
 
                     <div class="servicio__location ">
                         <i class="ri-creative-commons-zero-fill"></i><!--PONER LOS SERVICIOS DE LA PAGINA-->
                         <span class="servicio__text">Cambio de aceite y filtro</span>
                     </div>
                 </article>
-                
+
                 <article class="servicio__card hidden">
                     <div class="servicio__image">
                         <img src="assets/images/servicios5.jpg" alt="mecanico" class="servicio__img">
@@ -189,7 +200,7 @@
                         <span class="servicio__text">Mantenimiento Pre-ITV</span>
                     </div>
                 </article>
-                
+
                 <article class="servicio__card hidden">
                     <div class="servicio__image">
                         <img src="assets/images/servicios6.jpg" alt="mecanico" class="servicio__img">
@@ -225,15 +236,15 @@
                         <i class="ri-carousel-view"></i><!--PONER LOS SERVICIOS DE LA PAGINA-->
                         <span class="servicio__text">Coche de sustitución </span>
                     </div>
-                    
+
                 </article>
-               
-                
+
+
 
             </div>
-            
-            
-            
+
+
+
         </section>
 
         <div class="contactobtn__width">
@@ -242,7 +253,7 @@
 
         <!--CONTACTO-->
         <section class="contacto section" id="contacto">
-            
+
 
             <div class="contacto__container">
                 <div class="contacto__image">
@@ -271,32 +282,37 @@
                 <section class="join section">
                     <div class="join__container container grid">
                         <div class="join__data">
-                            <form method="post" class="join__form" id="join-form">
+                            <div class="join__form" id="join-form">
                                 <label for="nombre" class="join__label">*Nombre*:
                                     <span id="nombreError" class="error"></span>
                                 </label>
-                                <input type="text" class="join__input" id="nombre" name="nombre" placeholder="Ingrese su nombre">
-                
+                                <input type="text" class="join__input" id="nombre" name="nombre"
+                                    placeholder="Ingrese su nombre">
+
                                 <label for="telefono" class="join__label">*Teléfono*:
                                     <span id="telefonoError" class="error"></span>
                                 </label>
-                                <input type="text" class="join__input" id="telefono" name="telefono" placeholder="Ingrese su teléfono">
-                
+                                <input type="number" class="join__input" id="telefono" name="telefono"
+                                    placeholder="Ingrese su teléfono">
+
                                 <label for="email" class="join__label">*Correo electrónico*:
                                     <span id="emailError" class="error"></span>
                                 </label>
-                                <input type="email" class="join__input" id="email" name="email" placeholder="Ingrese su correo">
-                
+                                <input type="email" class="join__input" id="email" name="email"
+                                    placeholder="Ingrese su correo">
+
                                 <label for="mensaje" class="join__label">*Mensaje*:
                                     <span id="mensajeError" class="error"></span>
                                 </label>
-                                <textarea name="mensaje" id="mensaje" class="join__input join__textarea" placeholder="Escriba su mensaje aquí" cols="30" rows="10"></textarea>
-                
-                                <button id="join__button" type="submit" class="join__button button">Enviar <i class="ri-arrow-right-line"></i></button>
-                            </form>
-                            
+                                <textarea name="mensaje" id="mensaje" class="join__input join__textarea"
+                                    placeholder="Escriba su mensaje aquí" cols="30" rows="10"></textarea>
+
+                                <button id="join__button" type="submit" class="join__button button" onclick="sendMail()">Enviar <i
+                                        class="ri-arrow-right-line" ></i></button>
+                            </div>
+
                         </div>
-                
+
                         <div class="join__image">
                             <img src="assets/images/p10.jpg" alt="garaje" class="join__img">
                             <div class="join__shadow"></div>
@@ -315,23 +331,25 @@
                     <img src="assets/images/p6.png" alt="logo" width="150px" height="50px">
 
                     <p class="footer__description">
-                        
-                        Calidad y Experiencia a tu servicio 
+
+                        Calidad y Experiencia a tu servicio
                     </p>
                 </div>
 
-                
+
             </div>
             <div class="footer__group">
                 <span class="footer__copy">
-                    &#169; Copyright 2025 Talleres GR. Todos los derechos reservados. Web desarrollada por <a href="https://github.com/cronoxxxx" target="_blank" class="cronox__text"><u>@cronoxxxx</u></a>
+                    &#169; Copyright 2025 Talleres GR. Todos los derechos reservados. Web desarrollada por <a
+                        href="https://github.com/cronoxxxx" target="_blank" class="cronox__text"><u>@cronoxxxx</u></a>
                 </span>
             </div>
         </div>
-<!--HACER FORMULARIO Y HACER LA CARGA DE MOSTRAR MAS -->
+        <!--HACER FORMULARIO Y HACER LA CARGA DE MOSTRAR MAS -->
     </footer>
     <a href="#" class="scrollup" id="scroll-up"><i class="ri-arrow-up-line"></i></a>
-    <a href="https://wa.me/34657409831" class="scrollwhatsapp" id="scrollwhatspp-btn"><i class="ri-whatsapp-fill"></i></a><!--Poner whatsapp-->
+    <a href="https://wa.me/34657409831" class="scrollwhatsapp" id="scrollwhatspp-btn"><i
+            class="ri-whatsapp-fill"></i></a><!--Poner whatsapp-->
     <script src="assets/scripts/navbar.js"></script>
     <script src="assets/scripts/blur.js"></script>
     <script src="assets/scripts/form.js"></script>
@@ -340,7 +358,7 @@
     <script src="assets/templates/scrollreveal.min.js"></script>
     <script src="assets/scripts/scrollreveal.js"></script>
     <script src="assets/scripts/loadmore.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets/scripts/email.js"></script>
 </body>
 
 </html>
