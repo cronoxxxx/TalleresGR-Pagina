@@ -5,8 +5,9 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![ScrollReveal](https://img.shields.io/badge/ScrollReveal-4.0%2B-blueviolet)
+![EmailJS](https://img.shields.io/badge/EmailJS-FF7600?style=flat&logo=maildotru&logoColor=white)
 
-Bienvenido al repositorio de **TalleresGR**, una página web moderna y atractiva diseñada para representar un **taller mecánico profesional**, desarrollada con **HTML, CSS y JavaScript**, e impulsada por animaciones suaves usando **ScrollReveal.js**.
+Bienvenido al repositorio de **TalleresGR**, una página web moderna y atractiva diseñada para representar un **taller mecánico profesional**, desarrollada con **HTML, CSS y JavaScript**, e impulsada por animaciones suaves usando **ScrollReveal.js**. También se ha implementado **EmailJS** para el envío de formularios de contacto directamente por correo electrónico sin necesidad de backend.
 
 ---
 
@@ -16,12 +17,14 @@ Bienvenido al repositorio de **TalleresGR**, una página web moderna y atractiva
 
 ---
 
+
 ## 🌐 Tecnologías Utilizadas
 
 - 🧱 **HTML5** – Estructura semántica del contenido.
 - 🎨 **CSS3** – Estilos modernos y adaptativos.
 - ⚙️ **JavaScript** – Funcionalidades dinámicas.
 - ✨ **ScrollReveal.js** – Animaciones al hacer scroll para una navegación más atractiva.
+- 📧 **EmailJS** – Envío de formularios de contacto directamente a correo electrónico sin servidor.
 
 ---
 
@@ -34,12 +37,12 @@ Bienvenido al repositorio de **TalleresGR**, una página web moderna y atractiva
   - 🔧 Servicios (mecánica, mantenimiento, diagnóstico, etc.)
   - 📬 Formulario de contacto
 - Transiciones visuales atractivas en cada sección gracias a **ScrollReveal**.
+- Envío de mensajes del formulario de contacto usando **EmailJS** de forma rápida y segura.
 
 ---
 
 ## 🎨 Vista previa
-
-
+En desarrollo
 ---
 
 ## 🚀 Objetivo
